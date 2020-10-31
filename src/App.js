@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
 import Navbar from './componentes/Navbar';
-import bulma from 'bulma'
+import './App.css';
+import '../node_modules/bulma/css/bulma.css';
+import Rotas from './componentes/Rotas';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <div className="container">
+        <Rotas />
+      </div>
     </div>
   );
 }
